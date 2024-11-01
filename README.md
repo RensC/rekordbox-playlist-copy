@@ -31,3 +31,6 @@ Follow the instructions in the terminal. You can choose out of 3 options:
 - Option one is copy all the playlists at once
 - Option two is to only copy a single playlist
 - Option three is to confirm each playlist individualy
+
+## Notes
+- The tool will also support playlists placed within a directory. But only upto one directory so don't place directories within another directory if you want to use this tool
