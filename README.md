@@ -2,11 +2,15 @@
 
 Windows tool for copying playlists to folders. It will keep the playlists structure as it is.
 
+![Alt text](images/main_menu.jpg)
+
+![Alt text](images/copy_single_playlist.jpg)
+
 ## Example usages
 
-It will be useful in many cases, but here some examples:
+It will be useful in many cases, some examples:
 
-- When you want to use your playlists in another system like Traktor Scratch for example
+- When you want to use your playlists in another system like Traktor Scratch or Serato without using Rekordbox
 - When you want to copy a specific playlist from someones USB stick which is setup by Rekordbox
 - When you want to backup your Rekordbox playlist structure without using Rekordbox itself
 
@@ -24,7 +28,7 @@ Open Rekordbox and export your collection to XML. You can do that via the 'File'
 - The file should be saved in the 'rekordbox_playlist_copy' directory from this repository. 
 
 ##### Step 3
-Run the file 'rekordbox_copy.bat' from this repository as Administrator (Right click -> Run as administrator)
+Run the file 'rekordbox_playlist_copy/rekordbox_copy.bat' from this repository as Administrator (Right click -> Run as administrator)
 
 ##### Step 4
 Follow the instructions in the terminal. You can choose out of 3 options:
@@ -33,4 +37,6 @@ Follow the instructions in the terminal. You can choose out of 3 options:
 - Option three is to confirm each playlist individualy
 
 ## Notes
-- The tool will also support playlists placed within a directory. But only upto one directory so don't place directories within another directory if you want to use this tool
+- The tool will also support playlists placed within a directory but is not tested with subdirectories
+- The script is only reading stuff from your xml export. I will never change anything in your Rekordbox settings or xml file
+- It is always possible to cancel a running script by using Ctrl + C
