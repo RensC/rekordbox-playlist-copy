@@ -38,5 +38,5 @@ Follow the instructions in the terminal. You can choose out of 3 options:
 
 ## Notes
 - The tool will also support playlists placed within a directory but is not tested with subdirectories
-- The script is only reading stuff from your xml export. I will never change anything in your Rekordbox settings or xml file
+- The script is only reading stuff from your XML export. It will never change anything in your Rekordbox settings or XML file
 - It is always possible to cancel a running script by using Ctrl + C
